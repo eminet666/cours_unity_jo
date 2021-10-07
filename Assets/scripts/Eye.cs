@@ -49,6 +49,7 @@ public class Eye : MonoBehaviour
         yield return new WaitForSeconds(4f); // c'est ici qu'on attends
         isFalling = false;
         Debug.Log("still alive");
+        clone.SetActive(true);
     }
 
 
