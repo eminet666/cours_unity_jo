@@ -36,7 +36,4 @@ public class CrownStartCloner : MonoBehaviour
         // pour change la taille
         clone.transform.GetChild(0).localScale = Vector3.one * Random.Range(0.2f, 1f);
     }
-
-
-
 }

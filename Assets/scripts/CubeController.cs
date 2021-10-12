@@ -22,7 +22,7 @@ public class CubeController : MonoBehaviour
             Debug.LogError("Il n'y a pas de rigid");
             Debug.Break();
         }         
-    }
+    } 
 
     void updateMove() 
     {
